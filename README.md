@@ -5,7 +5,7 @@ It allows users to schedule meetings while strictly preventing overlapping time 
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Node.js
 - JavaScript
@@ -15,7 +15,7 @@ It allows users to schedule meetings while strictly preventing overlapping time 
 
 ---
 
-## 📌 Features
+##  Features
 
 ### User Management
 - Create a user
@@ -36,7 +36,7 @@ It allows users to schedule meetings while strictly preventing overlapping time 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 src/
 app.js
@@ -71,7 +71,7 @@ This structure follows a **modular and clean architecture**:
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 ### Users Table
 - id (Primary Key)
@@ -92,7 +92,7 @@ This structure follows a **modular and clean architecture**:
 
 ---
 
-## ⏰ Meeting Conflict Logic
+##  Meeting Conflict Logic
 
 A meeting **cannot be created or updated** if it overlaps with an existing meeting.
 
@@ -149,14 +149,14 @@ Delete Meeting
 DELETE /meetings/:id
 
 ⚙️ Setup & Run Locally
-1️⃣ Clone the repository
+1️1. Clone the repository
 git clone <your-github-repo-url>
 cd Meeting_booking-backend
 
-2️⃣ Install dependencies
+2️. Install dependencies
 npm install
 
-3️⃣ Setup environment variables
+3️. Setup environment variables
 
 Create a .env file in the root directory:
 
@@ -169,7 +169,7 @@ DB_NAME=meeting_db
 
 Make sure MySQL is running and the database exists.
 
-4️⃣ Start the server
+4️. Start the server
 node src/server.js
 
 
@@ -177,7 +177,7 @@ Server will start at:
 
 http://localhost:3000
 
-5️⃣ Health Check
+5️. Health Check
 
 Open in browser:
 
@@ -188,7 +188,7 @@ Response:
 
 OK
 
-🧪 Testing
+Testing
 
 APIs can be tested using:
 
@@ -208,7 +208,7 @@ Try creating an overlapping meeting (should fail)
 
 Create a non-overlapping meeting (should succeed)
 
-🎥 Demo Video
+Demo Video
 
 The demo video covers:
 
@@ -220,7 +220,7 @@ Demonstration of meeting conflict rejection
 
 Explanation of conflict logic
 
-✅ Evaluation Highlights
+ Evaluation Highlights
 
 Clean modular architecture
 
@@ -232,7 +232,7 @@ Strict conflict prevention logic
 
 Meaningful validations and error handling
 
-✨ Author
+Author
 
 Mouli Aravind Yendru
 
@@ -240,9 +240,9 @@ Mouli Aravind Yendru
 ---
 
 If you want next, I can help you with:
-- 📽️ **Demo video explanation script**
-- 🧪 **Exact Postman test steps**
-- 📝 **How to explain conflict logic confidently in interview**
-- 🚀 **Deployment steps (Render)**
+- **Demo video explanation script**
+- **Exact Postman test steps**
+- **How to explain conflict logic confidently in interview**
+- **Deployment steps (Render)**
 
-Just tell me 👍
+Just tell me 
